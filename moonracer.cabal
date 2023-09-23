@@ -1,0 +1,32 @@
+cabal-version:      3.0
+name:               moonracer
+version:            0.1
+author:             Tristan Cacqueray
+maintainer:         tdecacqu@redhat.com
+license:            Apache-2.0
+license-file:       LICENSE
+build-type:         Simple
+
+source-repository head
+  type: git
+  location: https://github.com/TristanCacqueray/moonracer
+
+executable moonracer
+  build-depends:      base <5, gloss
+  default-language:   GHC2021
+  ghc-options:
+    -Wall -fwarn-incomplete-uni-patterns -Wno-partial-type-signatures
+    -fwrite-ide-info -Wno-missing-methods
+
+  default-extensions:
+    BlockArguments
+    ImportQualifiedPost
+    LambdaCase
+    PartialTypeSignatures
+    OverloadedStrings
+    OverloadedRecordDot
+    StrictData
+
+  hs-source-dirs: .
+  main-is:        MoonRacer.hs
+  ghc-options:    -threaded -rtsopts -with-rtsopts=-T
