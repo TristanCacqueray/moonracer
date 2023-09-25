@@ -1,6 +1,13 @@
 # moonracer - a tiny game
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+![badge](https://img.shields.io/badge/haskell-game-blue?logo=haskell)
+[![License CC-BY-SA][badge-license]][license]
+
+[badge-license]: https://img.shields.io/badge/license-CC_BY--SA_4.0-blue.svg?dummy
+[license]: https://github.com/TristanCacqueray/moonracer/blob/main/LICENSE
+
+![moonracer](https://github.com/TristanCacqueray/moonracer/assets/154392/caa234a6-57fc-4c3c-99ac-999d5bb653f4)
+
 
 Goal: reach 10 targets as fast as possible.
 Control: arrow keys to move the ship.
