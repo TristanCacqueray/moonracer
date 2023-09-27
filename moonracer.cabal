@@ -3,8 +3,7 @@ name:          moonracer
 version:       0.1
 author:        Tristan Cacqueray
 maintainer:    tdecacqu@redhat.com
-license:       Apache-2.0
-license-file:  CC-BY-SA-4.0
+license:       CC-BY-SA-4.0
 build-type:    Simple
 
 source-repository head
